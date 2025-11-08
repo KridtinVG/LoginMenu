@@ -6,10 +6,10 @@
 
 ### กรณีที่ Username และ Password ถูกต้อง
 
-![ในกรณีที่ username, password ถูกต้อง](images/Screenshot 2025-11-08 111600.jpg)
+![ในกรณีที่ username, password ถูกต้อง](assets/images/Screenshot111600.jpg)
 
 ### กรณีที่ Username และ Password ไม่ตรงกัน
 
-![ในกรณีที่ username, password ไม่ตรงกัน](images/Screenshot 2025-11-08 111629.jpg)
+![ในกรณีที่ username, password ไม่ตรงกัน](assets/images/Screenshot111629.jpg)
 
 ---
