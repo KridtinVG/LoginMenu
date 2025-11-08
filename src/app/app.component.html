@@ -1,10 +1,24 @@
 <div class="container">
   <h1 class="title">Log-In</h1>
-  <div class="user-box">
-    <input class="username" type="text" [(ngModel)]="loginInput.username" />
+  <div class="input-box">
+    <div class="user-box">
+      Username
+      <input
+        class="username"
+        type="text"
+        [(ngModel)]="loginInput.username"
+        placeholder="username"
+      />
+    </div>
+    <div class="pass-box">
+      Password
+      <input
+        class="password"
+        type="password"
+        [(ngModel)]="loginInput.password"
+        placeholder="password"
+      />
+    </div>
+    <button class="submit-btn" type="submit" (click)="login()">Enter</button>
   </div>
-  <div class="pass-box">
-    <input class="password" type="password" [(ngModel)]="loginInput.password" />
-  </div>
-  <button class="submit-btn" type="submit" (click)="login()">Enter</button>
 </div>
